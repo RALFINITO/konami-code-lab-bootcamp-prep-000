@@ -9,7 +9,7 @@ function konami(e){
   key = parseInt(e.which)
   if(key===code[i]){
     i++
-    console.log
+    console.log(i)
   } else{
     i = 1
   }
