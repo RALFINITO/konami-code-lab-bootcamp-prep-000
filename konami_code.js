@@ -13,6 +13,6 @@ function konami(e){
     i = 0
   }
   if(i===code.length){
-    alert()
+    alert("Hurrah!!!")
   }
 }
