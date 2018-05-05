@@ -6,7 +6,8 @@ function init() {
 }
 
 function konami(e){
-  key = parseInt(e.which)
+  key = parseInt(e.detail || e.which)
+  console.log(key)
   if(key===code[i]){
     i++
     console.log(i)
